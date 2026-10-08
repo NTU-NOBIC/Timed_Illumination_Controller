@@ -34,7 +34,7 @@ Note: Teensy 4.0 GPIO input and output logic voltage is 3.3V.
 5. For timed acquisition, configure the camera for the expected external-trigger/ready-signal operation, then issue `r`. Enter `q` followed by Enter to abort the timed run.
 6. For streaming mode, ensure the camera feedback input is configured for the exposure signal expected by the firmware, then issue `stm on`; use `stm off` to disable the mode.
 
-See **[USER_GUIDE.md](USER_GUIDE.md)** for full commands, parameter definitions, default values, operating procedures, and EEPROM details.
+See [**USER_GUIDE.md**](./firmware/USER_GUIDE.md) under firmware folder for full commands, parameter definitions, default values, operating procedures, and EEPROM details.
 
 ## Documentation scope
 
